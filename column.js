@@ -10,6 +10,10 @@ export class Columnn {
     this.context = context;
   }
   drawnSymbol() {
+    if (this.y === 0 && Math.random() < 0.98) {
+      return;
+    }
+
     const characterIndex = Math.floor(Math.random() * CHARACTERS.length);
     const symbol = CHARACTERS[characterIndex];
 
