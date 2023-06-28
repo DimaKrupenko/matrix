@@ -6,7 +6,7 @@ const context = canvas.getContext('2d');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-const FONT_SIZE = 16;
+const FONT_SIZE = 30;
 
 const columns = [];
 const columnsCount = canvas.width / FONT_SIZE;
